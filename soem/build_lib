@@ -1,0 +1,25 @@
+gcc -fPIC -g -c -O2 -Wall src/*.c
+gcc -shared -Wl,-soname,libsoem.so.1 -o libsoem.so.1.0.1 *.o
+
+rm *.o
+
+cp libsoem.so.1.0.1 test/libsoem.so
+
+mv libsoem.so.1.0.1 /usr/local/lib/
+
+mkdir -p /usr/local/include/soem
+cp src/*.h /usr/local/include/soem
+
+cd /usr/local/lib
+
+ldconfig -n /usr/local/lib
+ 
+ln -sf libsoem.so.1.0.1 libsoem.so
+ln -sf libsoem.so.1.0.1 libsoem.so.1
+
+cp libsoem.so.1.0.1 /usr/lib
+
+cd /usr/lib
+
+ln -sf libsoem.so.1.0.1 libsoem.so
+ln -sf libsoem.so.1.0.1 libsoem.so.1

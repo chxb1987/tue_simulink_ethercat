@@ -1,0 +1,2 @@
+gcc simple_test.c -o simple_test -I/usr/local/include/soem/ -lsoem -L/usr/local/lib
+gcc slaveinfo.c -o slaveinfo -I/usr/local/include/soem/ -lsoem -L/usr/local/lib
