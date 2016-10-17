@@ -4,7 +4,7 @@
   <description>
     This meta package contains all simulink ethercat files to build ros packages from simulink
   </description>
-  <maintainer email="">Matthijs van der Burgh</maintainer>
+  <maintainer email="m.f.b.v.d.burgh@student.tue.nl">Matthijs van der Burgh</maintainer>
   <license>BSD</license>
 
   <url>https://github.com/tue-robotics/tue_simulink_ethercat</url>
