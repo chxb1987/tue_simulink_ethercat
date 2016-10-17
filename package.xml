@@ -1,0 +1,19 @@
+<package>
+  <name>tue_simulink_ethercat</name>
+  <version>0.0.0</version>
+  <description>
+    This meta package contains all simulink ethercat files to build ros packages from simulink
+  </description>
+  <maintainer email="">Matthijs van der Burgh</maintainer>
+  <license>BSD</license>
+
+  <url>https://github.com/tue-robotics/tue_simulink_ethercat</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- <run_depend>amigo_demo</run_depend> -->
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
