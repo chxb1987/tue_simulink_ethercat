@@ -1,4 +1,5 @@
 %% Path defines:
+cd ../src
 SOEMIDIR = '/usr/local/include/soem/';  % Folder where SOEM include files are located
 LIBDIR = '/usr/local/lib/';             % Folder where libsoem.so library is located
 SRCDIR = [pwd,'/ECAT_s_functions/'];    % Folder where s-function c-source files are located to build
@@ -39,3 +40,5 @@ savepath;
 sl_refresh_customizations;
 % Do a manual refresh now!
 disp('In the simulink library browser, do a manual refresh to let the EtherCAT library show!')
+
+cd ../scripts

@@ -1,4 +1,5 @@
 %% General blocks
+cd ../src
 cd Extra_functions
 cd General
 
